@@ -9,10 +9,78 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,707</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">134</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.appiumguide.mobileweb.ChromeConfigureApproach3</td><td><a href="#m0">test</a></td><td rowspan="1">1755234841650</td><td rowspan="1">733</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.appiumguide.mobileweb.ChromeConfigureApproach3</td><td><a href="#m0">setup</a></td><td rowspan="1">1755319418206</td><td rowspan="1">93</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.appiumguide.mobileweb.ChromeConfigureApproach3</td><td><a href="#m1">teardown</a></td><td rowspan="1">1755319418329</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.appiumguide.mobileweb.ChromeConfigureApproach3</td><td><a href="#m2">test</a></td><td rowspan="1">1755319418324</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.appiumguide.mobileweb.ChromeConfigureApproach3#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.appiumguide.mobileweb.ChromeConfigureApproach3#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.MalformedURLException: Error at index 0 in: &quot;&lt;APPIUM_PORT&gt;&quot;
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:806)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:654)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:590)
+	at com.appiumguide.mobileweb.ChromeConfigureApproach3.setup(ChromeConfigureApproach3.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NumberFormatException: Error at index 0 in: &quot;&lt;APPIUM_PORT&gt;&quot;
+	at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+	at java.base/java.lang.Integer.parseInt(Integer.java:663)
+	at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:236)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:801)
+	... 25 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.appiumguide.mobileweb.ChromeConfigureApproach3#teardown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.appiumguide.mobileweb.ChromeConfigureApproach3#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.MalformedURLException: Error at index 0 in: &quot;&lt;APPIUM_PORT&gt;&quot;
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:806)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:654)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:590)
+	at com.appiumguide.mobileweb.ChromeConfigureApproach3.setup(ChromeConfigureApproach3.java:37)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NumberFormatException: Error at index 0 in: &quot;&lt;APPIUM_PORT&gt;&quot;
+	at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+	at java.base/java.lang.Integer.parseInt(Integer.java:663)
+	at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:236)
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:801)
+	... 25 more
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

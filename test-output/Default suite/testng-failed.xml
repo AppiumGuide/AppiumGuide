@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demo.Sample10">
+      <class name="com.appiumguide.mobileweb.ChromeConfigureApproach3">
         <methods>
-          <include name="teardown"/>
           <include name="test"/>
           <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- demo.Sample10 -->
+      </class> <!-- com.appiumguide.mobileweb.ChromeConfigureApproach3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

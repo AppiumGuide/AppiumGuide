@@ -1,21 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-15T10:43:56 IST" name="Default suite" finished-at="2025-08-15T10:44:03 IST" duration-ms="6707">
+  <suite started-at="2025-08-16T10:13:38 IST" name="Default suite" finished-at="2025-08-16T10:13:38 IST" duration-ms="134">
     <groups>
     </groups>
-    <test started-at="2025-08-15T10:43:56 IST" name="Default test" finished-at="2025-08-15T10:44:03 IST" duration-ms="6707">
+    <test started-at="2025-08-16T10:13:38 IST" name="Default test" finished-at="2025-08-16T10:13:38 IST" duration-ms="134">
       <class name="com.appiumguide.mobileweb.ChromeConfigureApproach3">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-15T10:43:56 IST" name="setup" finished-at="2025-08-15T10:44:01 IST" duration-ms="5123" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-16T10:13:38 IST" name="setup" finished-at="2025-08-16T10:13:38 IST" duration-ms="93" status="FAIL">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 0 in: "<APPIUM_PORT>"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 0 in: "<APPIUM_PORT>"
+at java.base/java.net.URL.<init>(URL.java:806)
+at java.base/java.net.URL.<init>(URL.java:654)
+at java.base/java.net.URL.<init>(URL.java:590)
+at com.appiumguide.mobileweb.ChromeConfigureApproach3.setup(ChromeConfigureApproach3.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NumberFormatException: Error at index 0 in: "<APPIUM_PORT>"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:663)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:236)
+at java.base/java.net.URL.<init>(URL.java:801)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-15T10:44:01 IST" name="test" finished-at="2025-08-15T10:44:02 IST" duration-ms="733" status="PASS">
+        <test-method signature="test()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-16T10:13:38 IST" name="test" finished-at="2025-08-16T10:13:38 IST" duration-ms="0" status="SKIP">
+          <exception class="java.net.MalformedURLException">
+            <message>
+              <![CDATA[Error at index 0 in: "<APPIUM_PORT>"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.MalformedURLException: Error at index 0 in: "<APPIUM_PORT>"
+at java.base/java.net.URL.<init>(URL.java:806)
+at java.base/java.net.URL.<init>(URL.java:654)
+at java.base/java.net.URL.<init>(URL.java:590)
+at com.appiumguide.mobileweb.ChromeConfigureApproach3.setup(ChromeConfigureApproach3.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:655)
+at org.testng.TestRunner.beforeRun(TestRunner.java:644)
+at org.testng.TestRunner.run(TestRunner.java:610)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NumberFormatException: Error at index 0 in: "<APPIUM_PORT>"
+at java.base/java.lang.NumberFormatException.forCharSequence(NumberFormatException.java:83)
+at java.base/java.lang.Integer.parseInt(Integer.java:663)
+at java.base/java.net.URLStreamHandler.parseURL(URLStreamHandler.java:236)
+at java.base/java.net.URL.<init>(URL.java:801)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.MalformedURLException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-15T10:44:02 IST" name="teardown" finished-at="2025-08-15T10:44:03 IST" duration-ms="819" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.appiumguide.mobileweb.ChromeConfigureApproach3@3ad83a66]" started-at="2025-08-16T10:13:38 IST" name="teardown" finished-at="2025-08-16T10:13:38 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
